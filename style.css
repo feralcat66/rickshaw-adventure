@@ -11,7 +11,9 @@ header {
     padding: 10px;
     float: right;
     margin-right: 40px;
-    
+}
+h4 {
+    color: rgb(245, 201, 7)
 }
 
 #gif {
@@ -43,9 +45,10 @@ section {
 #profile1 {
     float: left;
     margin-top: 300px;
+    margin-left: 200px;
 }
 #profile1 p {
-    color: white;
+    color: rgb(245, 201, 7);
     border: solid 2px rgb(18, 192, 111);
     border-radius: 20px;
     font-family: 'Orbitron', sans-serif; 
@@ -53,7 +56,7 @@ section {
 }
 
 #profile2 p {
-    color: white;
+    color: red;
     border: solid 2px rgb(18, 192, 111);
     border-radius: 20px;
     font-family: 'Orbitron', sans-serif; 
@@ -62,8 +65,34 @@ section {
 #profile2 img {
     border-radius: 50%;
     height: 200px;
+    margin-left: 75px;
+}
+#profile2 {
+    float: right;
+    margin-top: 190px;
+    margin-right: 200px;
 }
 
+#profile3 img {
+    height: 200px;
+    border-radius: 50%;
+}
+#profile3 {
+    float: right;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+#profile3 p {
+    color: white;
+    border: solid 2px rgb(18, 192, 111);
+    border-radius: 20px;
+    font-family: 'Orbitron', sans-serif; 
+    padding: 5px;   
+}
+
+#flags {
+   
+}
 
 
 
