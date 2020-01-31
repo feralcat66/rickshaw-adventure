@@ -5,7 +5,7 @@ const monkey = {
     title: 'Monkey Business at Monkey Temple',
     map: {
         top: '75%',
-        left: '30%',
+        left: '30%'
     },
     image: 'monkey-temple.jpg',
     description: `

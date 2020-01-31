@@ -16,7 +16,7 @@ if (!quest) {
 }
 
 const title = document.getElementById('title');
-const image = document.getElementById('image');
+const image = document.getElementById('questImage');
 const description = document.getElementById('description');
 const choiceForm = document.getElementById('choice-form');
 const choices = document.getElementById('choices');
@@ -24,7 +24,7 @@ const result = document.getElementById('result');
 const resultDescription = document.getElementById('result-description');
 
 title.textContent = quest.title;
-image.src = '../assets' + quest.image;
+image.src = '../assets/quests/' + quest.image;
 description.textContent = quest.description;
 
 for (let i = 0; i < quest.choices.length; i++) {
