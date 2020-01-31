@@ -1,0 +1,28 @@
+h2 {
+    font-family: 'Orbitron', sans-serif;
+}
+body {
+    background-color: black;
+}
+main {
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(245, 201, 7);
+}
+h2 {
+    color: red;
+    border: solid 2px rgb(166, 81, 247);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+form {
+    color: rgb(166, 81, 247);
+    border: solid 2px rgb(18, 192, 111);
+    padding: 5px;
+    border-radius: 20px;
+}
+#description {
+    border: solid 2px rgb(166, 81, 247);
+    padding: 10px;
+    border-radius: 20px;
+}
