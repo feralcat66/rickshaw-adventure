@@ -89,9 +89,9 @@ section {
     font-family: 'Orbitron', sans-serif; 
     padding: 5px;   
 }
-
-#flags {
-   
+#user-sign-up {
+    color:red;
+    font-family: 'Orbitron', sans-serif;
 }
 
 

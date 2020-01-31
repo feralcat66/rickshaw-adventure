@@ -44,7 +44,7 @@ const thamel = {
     id: 'thamel-adventure',
     title: 'A Trip Through Thamel',
     map: {
-        top: '50%',
+        top: '20%',
         left: '50%'
     },
     image: 'party.png',
@@ -84,8 +84,8 @@ const crazyCustomer = {
     id: 'crazy-customer',
     title: 'Crazy Customer',
     map: {
-        top: '60%',
-        left: '65%'
+        top: '10%',
+        left: '90%'
     },
     image: 'skull-face.jpg',
     description: `

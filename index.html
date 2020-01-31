@@ -22,25 +22,32 @@
     <section>
         <p>You are a rickshaw driver in the city of Kathmandu, Nepal where <br> anything can and will happen. Select your character below and get started!</p>
     </section>
+    <form id="user-sign-up">
+        <p class="text-prompt">
+            <label for="name">Your Name:</label>
+            <input id="name" name="name" required>
+        </p> 
+            <label>
+                <div id="profile1">
+                    <img src="/assets/avatars/govinda.jpg" alt="">
+                    <p>Govinda, a young body with an old <br> soul and a heart of gold.</p>
+                    <input type="radio" name="person" required value="govinda">
+                </div>
+            </label>
+            <label>
+                <div id="profile2">
+                    <img src="/assets/avatars/nima-nima.jpg" alt="">
+                    <p>Nima-Nima, a small old woman with the <br> strength of 100 water buffalo.</p>
+                    <input type="radio" name="person" required value="Nima-Nima">
+                </div>
+            </label>
+           <button>Start Adventure</button> 
+
+    </form>
 
     
-    <div id="profile1">
-        <a href="map/index.html">
-            <img src="/assets/govinda.jpg" alt="">
-        </a>
-        <p>Govinda, a young body with an old <br> soul and a heart of gold.</p>
-    </div>
     
-    <div id="profile2">
-        <a href="map/index.html">
-            <img src="/assets/nima-nima.jpg" alt="">
-        </a>
-        <p>Nima-Nima, a small old woman with the <br> strength of 100 water buffalo.</p>
-    </div>
-
-    
-    
-    <script type="module" src="app.js"></script>
+    <script type="module" src="home/home.js"></script>
 </body>
          
 
